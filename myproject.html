@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myproject</title>
+	<link rel="stylesheet" type="text/css" href="myproject.css">
+</head>
+<body>
+       
+       <div id="main1">
+		<div id="sidemenu">
+							
+				<img id="imgonly" src="images/page-1.png">  
+				
+				<div id="sidemenu1" class="">
+					<img id="img1" src="images/group.png"alt="image1">	
+					<p id="para1">Users</p>
+				</div>
+				
+				<div id="sidemenu2" class="">
+					<img src="images/user.png"alt="image2">			
+					<p>Profile</p>
+				</div>
+			
+		</div>
+		<div id="div2">
+			<p class="">NAME</p>
+			<img src="images/logout-1.png">
+		</div>
+
+		<div id="div3" class="">
+			<div id="pic"> 
+				<h3>Profile Photo</h3>
+			</div> <br>
+			<div>
+				<img src="images/user.png" alt="image of user">		
+			</div>
+			<div id="hrline"><hr></div>
+             
+		  Name             :<input id="NaveenVedala" type="text" placeholder="name">               <br> <br>
+		  E mail           :<input id="mail" type="text" placeholder="Enter your mail">            <br> <br>
+		  College          :<input id="college" type="text" placeholder="enter your college">      <br> <br>
+		  City             :<input id="City" type="text" placeholder="enter your City">            <br> <br>
+          Working status   :<input id="Workingstatus" type="text" placeholder="enter your status"> <br> <br>
+          Technologies     :<input id="Technologies" type="text" placeholder="Technologies">       <br> <br>
+            <div id="rect" style="height:40PX;width:50px;">
+			<button style="width: 100px;height: 40px;background-color:blue;color:white;border-radius: 8px">EDIT</button> 
+			</div>
+
+
+         <script> 
+         	        function button() {
+                    event.preventDefault();
+                   	var x=document.getElementById("NaveenVedala").value;
+                   	console.log(x);
+
+                   	var y=document.getElementById("mail").value;
+                   	console.log(y);
+                    
+                    var z=document.getElementById("college").value;
+                   	console.log(z);
+
+                   	var a=document.getElementById("city").value;
+                   	console.log(a);
+
+                   	var b=document.getElementById("workingstatus").value;
+                   	console.log(b);
+
+                   	var c=document.getElementById("Technologies").value;
+                   	console.log(c);
+
+                   }
+         </script>
+           
+         
+      </div>
+</body>
+</html>      

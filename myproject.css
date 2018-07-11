@@ -1,0 +1,180 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 1440px;
+	height: 900px;
+}
+.borderall{
+	border: solid orange;
+}
+.bordernone{
+	border: none;
+}
+
+#div2{
+	width: 1108px;
+	height: 64px;
+	float: right;
+	margin-left: 3px; 
+}
+#div2  p{
+	float: left;
+	text-align: left;
+	font-family: Roboto;
+  	font-size: 24px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  letter-spacing: 1px;
+  	color: #00426f;
+  	margin: 10px 5px 5px 5px;
+  	width:128px;
+  	height: 28px;
+
+}
+#div2 img{
+	float: right;
+	clear: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	height: 30px;
+	width: 40px;
+}
+
+#div3 {
+	width: 1108px;
+	height: 804px;
+	float: right;
+	margin-left: 0px;
+}
+
+#div3 img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 15px;
+}
+#pic{
+	margin-left: 20px;
+}
+#sidemenu{
+	width: 300px;
+	height:900px;
+}
+#sidemenu{
+	float: left;
+	background-color: #00426f;
+
+}
+#imgonly{
+	padding: 10px 30px;
+}
+#sidemenu1{
+	padding: 1px 2px 38px 5px;
+}
+#sidemenu1 img{
+	float: left;
+}
+#hrline{
+	width: 100%;
+	height: 2px;
+	margin-top: 180px;
+	background-color: lightblue;
+}
+#para1 {
+	/*float: left;*/
+	float: right;
+	color: white;
+	text-align: left;
+	font-family: Roboto;
+  	font-size: 24px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: 1px;
+	width: 68px;
+	height: 28px;
+	margin: 10px 165px 5px 5px;
+}
+#sidemenu2 {
+	clear: both;
+	padding: 1px 2px 40px 2px;
+}
+#sidemenu2 img{
+	float: left;
+}
+#sidemenu2 p{
+	float: right;
+	color: white;
+	text-align: left;
+	font-family: Roboto;
+  	font-size: 24px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: 1px;
+	width: 68px;
+	height: 28px;
+	margin: 10px 165px 5px 5px;
+}
+#div3 {
+	background-color: #eaf6ff;
+}
+#NaveenVedala{
+	height: 40px;
+	width: 90%;
+	margin-left: 60px;
+	background-color: white;
+	border:none;
+}
+#mail{
+	height: 40px;
+	width: 90%;
+	margin-left: 55px;
+	margin-top: 15px;
+	border:none;
+	background-color:#d3d3d32e;
+}
+#college{
+	height: 40px;
+	width: 90%;
+	margin-left: 50px;
+	background-color: white;
+	border:none;
+}
+#City{
+	height: 40px;
+	width: 90%;
+	margin-left: 70px;
+	margin-top: 15px;
+	border:none;
+	background-color:#d3d3d32e;
+}
+#Workingstatus{
+	height: 40px;
+	width: 90%;
+	margin-left:6px;
+	background-color: white;
+	border:none;
+
+}
+#Technologies{
+	height: 40px;
+	width: 90%;
+	margin-left: 9px;
+	margin-top: 15px;
+	border:none;
+	background-color:#d3d3d32e;
+}
+#rect{
+	height: 120px;
+	width: 160px;
+	color: blue;
+	margin-left: 50px;text-align-last: center;
+	margin-top: 20px;
+}
